@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevDetective</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans"
+    rel="stylesheet" />
+</head>
+<body>
+
+   <div class="wrapper">
+         
+          <div class="topBar">
+              <h2>DevDetective</h2>
+              <div class="dark-mode">
+                <p data-mode>Dark</p>
+                <i data-modeIcon class="fa-solid fa-moon"></i>
+              </div>
+          </div>
+
+          <div class="search-bar">
+             <div class="inp-searchIcon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input placeholder="Enter Name..." class="inp" type="text" spellcheck="false" required>
+             </div>
+             <div class="cross-searchBtn">
+                <i data-xmark class="fa-solid disable-cross fa-xmark"></i>
+                <button class="search-btn">Search</button>
+             </div>
+          </div>
+
+          <div class="content">
+            <div class="image-container">
+                <img data-profile alt="profile-pic">
+            </div>
+
+            <div class="text-content">
+
+                <div class="heading">
+                    <h3 data-name ></h3>
+                    <p data-joined ></p>
+                </div>
+
+                <a target="_blank" class="githubLink" href="" data-github></a>
+                <p data-desc ></p>
+
+                <div class="user-details">
+                    <div class="cards">
+                        <p>Repos</p>
+                        <p data-repoCount >0</p>
+                    </div>
+                    <div class="cards">
+                        <p>Following</p>
+                         <p data-followingCount >0</p>
+                    </div>
+                    <div class="cards">
+                        <p>followers</p>
+                        <p data-followersCount >0</p>
+                    </div> 
+                </div>
+
+                <div class="loc-bio">
+                    <div class="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p data-location>Not_Available</p>
+                    </div>
+                    <div class="bioLink">
+                        <i class="fa-solid fa-link"></i>
+                        <a data-bio href="#">Not_Available</a>
+                    </div>
+                </div>
+
+                <div class="twitter-org">
+                    <div class="twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                        <a href="#" data-twitter>Not_Available</a>
+                    </div>
+                    <div class="org">
+                        <i class="fa-solid fa-building"></i>
+                        <p data-org>Not_Available</p>
+                    </div>
+                </div>
+
+            </div>
+          </div>
+   </div>
+
+<script src="index.js"></script>   
+<script src="https://kit.fontawesome.com/663f38a730.js" crossorigin="anonymous"></script>  
+</body>
+</html>
